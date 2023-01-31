@@ -1,0 +1,190 @@
+/* global css */
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td, th {
+    border: 1px solid lightgray;
+    padding: 0.5rem 0.7rem;
+    font-size: 30px;
+}
+
+td:hover {
+    color: #418D98
+}
+
+/* code css */
+nav {
+    display: flex;
+    justify-content: space-around;
+    /* upore nicee, left righy */
+    /* padding: 0px 10%; */
+    align-items: center;
+    padding: 10px;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav>ul>li {
+    list-style: none;
+    margin-right: 10px;
+    padding: 0 5px;
+    transition: all 0.4s;
+    border-radius: 5px;
+}
+
+nav>ul>li:hover {
+    background: #418D98;
+}
+
+nav>ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.cover img {
+    width: 100%;
+    max-height: 50vh;
+    border-radius: 5px;
+    object-fit: cover;
+    /* initially it already center  */
+    object-position: center;
+
+}
+
+article>p {
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+
+}
+
+.intro {
+   max-width: 70%;
+    margin: auto;
+}
+
+.intro img {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.astaDream {
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+
+
+.astaDream ul {
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+
+}
+
+.astaDream li {
+    font-size: 36px;
+    color: rgba(255, 0, 0, 0.63);
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-style: italic;
+}
+
+.astaDream>img {
+    width: 50%;
+    border-radius: 30px;
+    max-height: 70vh;
+    object-fit: cover;
+    object-position: center;
+    padding: 15px;
+}
+
+.astaWeapon {
+    max-width: 70%;
+    margin: auto;
+}
+
+.astaWeapon li {
+    font-size: 30px;
+    color: rgba(255, 0, 0, 0.76);
+    font-style: bold;
+
+}
+
+.astaWeapon div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.astaWeapon img {
+    width: 50%;
+    border-radius: 30px;
+    max-height: 40vh;
+    object-fit: cover;
+    object-position: center;
+    padding: 15px;
+}
+
+.astaWeapon p {
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+.fanFrom {
+    font-size: 24px;
+    padding: 10px;
+    display: block;
+    max-width: 70%;
+    margin: auto;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    background-color: lightcoral;
+    border-radius: 1rem;
+    padding: 4rem;
+    color: white;
+}
+
+.fanFrom>label {
+    display: block;
+}
+
+.fanFrom label, fieldset, input {
+    margin-bottom: 20px;
+}
+
+/* select input by type css */
+.fanFrom input[type=text], input[type=email] {
+    padding: 0.5rem 1rem;
+}
+
+.fanFrom input[type=submit], input[type=reset] {
+    padding: 0.5rem 0, 7rem;
+    font-size: 24px;
+}
