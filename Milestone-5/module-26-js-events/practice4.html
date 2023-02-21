@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="secret-info">My Secret info</h1>
+    <input id="btn-input" type="text" placeholder="please type delete">
+    <button id="btn-delete" disabled>Delete</button>
+    <button id="btn-show" hidden>Undo</button>
+    <script>
+        const btnDelete = document.getElementById('btn-delete');
+        const btnShow = document.getElementById('btn-show');
+        btnDelete.addEventListener('click', function () {
+            document.getElementById('secret-info').style.visibility = 'hidden'
+            btnDelete.setAttribute('hidden', true);
+            btnShow.removeAttribute('hidden')
+        })
+        btnShow.addEventListener('click', function () {
+            document.getElementById('secret-info').style.visibility = 'visible'
+            btnShow.setAttribute('hidden', true);
+            btnDelete.removeAttribute('hidden')
+        })
+
+        document.getElementById('btn-input').addEventListener('keyup', function () {
+            const inputField = document.getElementById('btn-input');
+            const text = inputField.value;
+            const btnDelete = document.getElementById('btn-delete');
+
+            if (text === 'delete') {
+                btnDelete.removeAttribute('disabled')
+            } else {
+                btnDelete.setAttribute('disabled', true)
+            }
+        })
+
+
+    </script>
+</body>
+
+</html>
