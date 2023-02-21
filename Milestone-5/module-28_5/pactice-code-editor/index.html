@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editor</title>
+
+    <script src="https://kit.fontawesome.com/14e18c97a5.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-blue-400">
+    <!-- task -->
+    <!-- text-align ,font-size,font-bold,font-del   , color -->
+    <div class="w-full ">
+        <h1 class="text-6xl text-center py-6">My Text Editor</h1>
+        <div class="m-20 mt-0 p-6 border-4 bg-blue-200 rounded-lg">
+            <div class="flex justify-between text-xl">
+                <div class="flex gap-4 items-center">
+                    <i id="btn-bold" class="fa-sharp fa-solid fa-bold border-2 border-blue-200 rounded p-1"></i>
+                    <i id="btn-italic" class="fa-solid fa-italic border-2 border-blue-200 p-1 rounded"></i>
+                    <i id="btn-underline" class="fa-solid fa-underline border-2 border-blue-200 p-1 rounded"></i>
+                </div>
+                <div class="flex gap-4">
+                    <i id="btn-text-left" class="border-2 rounded border-blue-200 p-1 fa-solid fa-align-left"></i>
+                    <i id="btn-text-center" class="border-2 border-blue-200 p-1 fa-solid fa-align-center rounded"></i>
+                    <i id="btn-text-right" class="border-2 border-blue-200 p-1 fa-solid fa-align-right rounded"></i>
+                    <i id="btn-align-justify" class="border-2 border-blue-200 p-1 fa-solid fa-align-justify rounded"></i>
+                </div>
+                <div class="flex gap-4">
+                    <input id="btn-text-size" class="border-2 border-blue-200 p-1 w-12 bg-blue-100 text-black" value="24" placeholder="24" type="number">
+                    <button id="btn-font-case" class="border-2 border-blue-200 p-1 rounded">aA</button>
+                    <input id="btn-color"  class="border-2 border-blue-200 p-1 w-12 h-10 max-h-full bg-blue-100 text-black rounded " value="black"  type="color">
+                </div>
+            </div>
+            <textarea id="input-text" class="max-w-full rounded-lg mt-4 p-4 text-2xl" name="" id="" cols="200" rows="30" placeholder="Write Your Code Bro ..."></textarea>
+        </div>
+    </div>
+
+
+    <script src="./script.js">  </script>
+</body>
+
+</html>

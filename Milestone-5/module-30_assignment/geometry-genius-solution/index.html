@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title> Geometry Genius</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Poppins&display=swap"
+        rel="stylesheet">
+    <!-- css -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="container mx-auto">
+    <header>
+        <nav class="bg-sky-100 rounded-lg flex items-center justify-between px-8 py-4 my-8">
+            <h3>
+                <p class="text-5xl font-semibold mb-2">Interactive</p>
+                <span class="text-4xl text-gray-500 font-semibold">Geometry Genius</span>
+            </h3>
+            <a href="./blog.html" class="text-xl bg-sky-500 text-white font-bold px-8 py-2 rounded-lg">Blog</a>
+        </nav>
+    </header>
+    <main>
+        <section class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <!-- trigonometry elements -->
+            <div class="col-span-1 md:col-span-3 grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- triangle -->
+                <div class="area-card p-12 text-center border  rounded-lg">
+                    <div>
+                        <img class="w-full h-[150px]" src="./images/triangle.png" alt="">
+                    </div>
+                    <h3 class="mt-12 mb-2 text-2xl font-semibold text-gray-600">Triangle</h3>
+                    <p class="text-gray-600 ">Area (A) = 0.5 x b x h</p>
+                    <div class="grid grid-cols-4 items-center mt-5 mb-12">
+                        <input min="0"id="triangle-b" class="placeholder:text-black px-3 py-2 bg-gray-100 " type="number"
+                            placeholder="b"> cm
+                        <input min="0"id="triangle-h" class="placeholder:text-black px-3 py-2 bg-gray-100 " type="number"
+                            placeholder="h"> cm
+                    </div>
+                    <button id="calculate-triangle"
+                        class="text-xl bg-sky-500 text-white font-bold px-8 py-2 rounded-lg w-full">Calculate</button>
+                </div>
+                <!-- Rectangle -->
+                <div class="area-card p-12 text-center border  rounded-lg">
+                    <div>
+                        <img class="w-full h-[150px]" src="./images/rectangle.png" alt="">
+                    </div>
+                    <h3 class="mt-12 mb-2 text-2xl font-semibold text-gray-600">Rectangle</h3>
+                    <p class="text-gray-600 ">Area (A) = W x l</p>
+                    <div class="grid grid-cols-4 items-center mt-5 mb-12">
+                        <input min="0"id="rectangle-w" class="placeholder:text-black px-3 py-2 bg-gray-100 " type="number"
+                            placeholder="w"> cm
+                        <input min="0"id="rectangle-l" class="placeholder:text-black px-3 py-2 bg-gray-100 " type="number"
+                            placeholder="l"> cm
+                    </div>
+                    <button id="rectangle-calculate"
+                        class="text-xl bg-sky-500 text-white font-bold px-8 py-2 rounded-lg w-full">Calculate</button>
+                </div>
+                <!-- Parallelogram -->
+                <div class="area-card p-12 text-center border rounded-lg">
+                    <div>
+                        <img class="w-full h-[150px]" src="./images/parallelogram.png" alt="">
+                    </div>
+                    <h3 class="mt-12 mb-2 text-2xl font-semibold text-gray-600">Parallelogram</h3>
+                    <p class="text-gray-600 ">Area (A) = b x h</p>
+                    <div class="grid grid-cols-4 items-center mt-5 mb-12">
+                        <input min="0"id="parallelogram-b" class="placeholder:text-black px-3 py-2 bg-gray-100 " type="number" placeholder="b"> cm
+                        <input min="0"id="parallelogram-h" class="placeholder:text-black px-3 py-2 bg-gray-100 " type="number" placeholder="h"> cm
+                    </div>
+                    <button id="parallelogram-calculate"
+                        class="text-xl bg-sky-500 text-white font-bold px-8 py-2 rounded-lg w-full">Calculate</button>
+                </div>
+                <!-- Rhombus -->
+                <div class="area-card p-12 text-center border  rounded-lg">
+                    <div>
+                        <img class="w-full h-[150px]" src="./images/rhombus.png" alt="">
+                    </div>
+                    <h3 class="mt-12 mb-2 text-2xl font-semibold text-gray-600">Rhombus</h3>
+                    <p class="text-gray-600 ">Area (A) = 0.5 x d <sub>1</sub> x d <sub>2</sub></p>
+                    <div class="grid grid-cols-4 items-center mt-5 mb-12">
+                        <input id="rhombus-d1"
+                        min="0"class="placeholder:text-black px-3 py-2 bg-gray-100 " type="number" placeholder="d1"> cm
+                        <input id="rhombus-d2" min="0"class="placeholder:text-black px-3 py-2 bg-gray-100 " type="number" placeholder="d2"> cm
+                    </div>
+                    <button id="rhombus-calculate"
+                        class="text-xl bg-sky-500 text-white font-bold px-8 py-2 rounded-lg w-full">Calculate</button>
+                </div>
+                <!-- Pentagon -->
+                <div class="area-card p-12 text-center border  rounded-lg">
+                    <div>
+                        <img class="w-full h-[150px]" src="./images/pentagon.png" alt="">
+                    </div>
+                    <h3 class="mt-12 mb-2 text-2xl font-semibold text-gray-600">Pentagon</h3>
+                    <p class="text-gray-600 ">Area (A) = 0.5 x p x b</p>
+                    <div class="grid grid-cols-4 items-center mt-5 mb-12">
+                        <input id="pentagon-p" min="0"class="placeholder:text-black px-3 py-2 bg-gray-100 " type="number" placeholder="p"> cm
+                        <input id="pentagon-b" min="0"class="placeholder:text-black px-3 py-2 bg-gray-100 " type="number" placeholder="b"> cm
+                    </div>
+                    <button id="pentagon-calculate" 
+                        class="text-xl bg-sky-500 text-white font-bold px-8 py-2 rounded-lg w-full">Calculate</button>
+                </div>
+                <!-- Ellipse -->
+                <div class="area-card p-12 text-center border  rounded-lg">
+                    <div>
+                        <img class="w-full h-[150px]" src="./images/ellipse.png" alt="">
+                    </div>
+                    <h3 class="mt-12 mb-2 text-2xl font-semibold text-gray-600">Ellipse</h3>
+                    <p class="text-gray-600 ">Area (A) = &#x03C0; ab</p>
+                    <div class="grid grid-cols-4 items-center mt-5 mb-12">
+                        <input id="ellipse-a" min="0"class="placeholder:text-black px-3 py-2 bg-gray-100 " type="number" placeholder="a"> cm
+                        <input id="ellipse-b" min="0"class="placeholder:text-black px-3 py-2 bg-gray-100 " type="number" placeholder="b"> cm
+                    </div>
+                    <button id="ellipse-calculate" 
+                        class="text-xl bg-sky-500 text-white font-bold px-8 py-2 rounded-lg w-full">Calculate</button>
+                </div>
+            </div>
+            <!-- Area Calculation -->
+            <div class="border  rounded-lg pt-8 max-h-[70vh]">
+                <h4 class="text-xl text-center underline
+                 font-semibold text-gray-600">Area Calculation</h4>
+                <ul id="area-calculation" class="list-decimal pl-6 pr-2">
+                    <!-- here calculation will stay -->
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script src="./js/utility.js"></script>
+    <script src="./js/calculate.js"></script>
+</body>
+
+</html>
