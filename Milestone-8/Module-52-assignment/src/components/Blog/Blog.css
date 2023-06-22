@@ -1,0 +1,26 @@
+.blog {
+    margin-top: 50px;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.1);
+}
+
+.blog .question {
+    font-weight: 700;
+    font-size: 40px;
+    color: #111111;
+    border-left: 8px solid rgb(200, 62, 62);
+    padding: 10px;
+}
+
+.blog .answer {
+    font-size: 24px;
+    border-left: 8px solid rgb(62, 200, 62);
+    padding: 10px;
+    line-height: 34px;
+
+}
+
+@media screen and (max-width:576px) {
+    .blog .question {
+        font-size: 28px;
+    }
+}

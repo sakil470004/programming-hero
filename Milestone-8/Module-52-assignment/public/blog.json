@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "author": "Sakil",
+        "": "https://robohash.org/1",
+        "question": "Props VS state in React ?",
+        "ans": "Props : props is the way of passing data from parent component to child component. It's read only .Used sending array,function,variable to the child component \n\n On the other hand , state used to manage internal component data. State cann't change directly . It can change using setState() function which is coming with the state."
+    },
+    {
+        "id": "2",
+        "author": "Sakil",
+        "": "https://robohash.org/1",
+        "question": "How useState() Work in react?",
+        "ans": "useState is React Hook that allows us to add state to a functional component. It returns an array with two values:\n\n the current state and a function to update it. The Hook takes an initial state value as an argument and returns an updated state value whenever the setState function is called"
+    },
+    {
+        "id": "3",
+        "author": "Sakil",
+        "": "https://robohash.org/1",
+        "question": "What useEffect() do except dataLoad from api ?",
+        "ans": "useEffect() has two parameter , one is a function and another is an array. on this array we can give difendency. Whenever defendency change the useEffect() Function will call again . This way we can observe variable, loaded data, and other thing.\n\n We can valid our input from data from useEffect,\n\n We can use live filtering"
+    },
+    {
+        "id": "4",
+        "author": "Sakil",
+        "": "https://robohash.org/1",
+        "question": "How does React Work ?",
+        "ans": "React Created Virtual DOM. whenever Dom changes . React used diff algorithm to check which side of it's change . And make minimal change possible on actual dom \n\n React is component based library. It can use minimum our work as we can use our component endlessly"
+    }
+]

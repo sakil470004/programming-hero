@@ -1,0 +1,19 @@
+.nav-container{
+    background-color: #1C2B35;
+    color: white;
+    
+}
+.header {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav.header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}

@@ -1,0 +1,11 @@
+.meal-details{
+position: sticky;
+height: 70vh;
+overflow-y: auto;
+top: 0;
+}
+.meal-details img{
+    border-radius: 8px;
+    width: calc(100% - 16px);
+    padding: 8px;
+}

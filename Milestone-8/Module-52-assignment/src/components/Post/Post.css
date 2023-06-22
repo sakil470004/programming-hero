@@ -1,0 +1,71 @@
+.post{
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.1);
+    margin-bottom: 40px;
+}
+.post img {
+    max-width: 100%;
+    border-radius: 8px;
+
+}
+
+.post .post-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.post .post-info>div {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.post button{
+    background-color: #ffffff;
+    color: #6047ec;
+    border-radius: 5px;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.post .post-info p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgba(17, 17, 17, 0.6);
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 0;
+}
+.post .post-info p:hover{
+    color: rgba(17, 17, 17, 0.9);
+}
+
+.post .icon {
+    border: 1px solid black;
+    background-color: rgba(128, 128, 128, 0.52);
+    border-radius: 50%;
+}
+
+.post .author-info h4 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #111111;
+    margin: 10px 0px;
+}
+
+.post .about {
+    font-weight: 700;
+    font-size: 40px;
+    color: #111111;
+}
+@media screen and (max-width:576px){
+    .post .post-info p{
+        gap: 2px;
+        font-size: 14px;
+    }
+    .post .about{
+        font-size: 32px;
+    }
+ }

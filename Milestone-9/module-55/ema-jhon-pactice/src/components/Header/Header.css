@@ -1,0 +1,21 @@
+.nav-container {
+    background-color: #1c2b35;
+}
+
+.header {
+
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-info a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}

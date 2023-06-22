@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naruto</title>
+    <link rel="stylesheet" href="">
+    <link rel="icon" type="image/x-icon" href="./icon.jpg">
+    <style>
+        h3 {
+            text-align: center;
+            letter-spacing: 3px;
+            word-spacing: 4px;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 22px;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 1.5rem;
+        }
+
+        header {
+            background: #F4F3F3;
+            height: 50px;
+            padding: 10px 0px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        header img {
+            /* width: auto;
+            height: 100%;
+            margin: auto; */
+        }
+
+        .cover img {
+            width: 100%;
+            max-height: 50vh;
+            /* background-image: url("cover.jpg");
+            background-position: top;
+            background-repeat: no-repeat; */
+            /* to fixed photo */
+            object-fit: cover;
+            object-position: center;
+            /* height: 40vh; */
+            /* background-size: crop; */
+
+        }
+
+        .productQuality {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .productQuality img {
+            width: 50%;
+            border-radius: 30px;
+            max-height: 70vh;
+            object-fit: cover;
+            object-position: center;
+            padding: 15px;
+
+        }
+
+        .productQuality ol {
+            width: 50%;
+            display: flex;
+            flex-flow: column;
+            justify-content: left;
+            font-size: 36px;
+
+        }
+
+        .productQuality ol li {
+            color: #D7720E;
+        }
+
+        .reasonForFamous p {
+            max-width: 60vw;
+            display: flex;
+            margin: auto;
+            font-size: 20px;
+            letter-spacing: 3px;
+            word-spacing: 4px;
+        }
+
+        .productCards {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .productCards div {
+            width: 400px;
+            /* height: 650px; */
+            background: #F4F3F3;
+            border-radius: 15px;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+        }
+
+        .productCards div img {
+            width: 100%;
+            border-radius: 15px;
+            object-fit: cover;
+            object-position: center;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="./naturo.avif" alt="Naruto">
+    </header>
+    <!-- body container -->
+    <div class="cover">
+        <img src="./cover.jpg" alt="cover">
+    </div>
+    <div class="whyChoice">
+        <h1>Why Choose Naruto</h1>
+
+        <div class="productQuality">
+
+            <img src="./icon.jpg" alt="our product">
+
+            <ol>
+                <li>IT HAS GREAT TEACHINGS</li>
+                <li>NARUTO IS HEARTFELT</li>
+                <li>NARUTO IS INSPIRING</li>
+                <li style="color: red;">NARUTO NEVER GIVE UP</li>
+                <li>THE WORLD IS UNIQUE</li>
+                <li>THE OVERALL PLOT</li>
+            </ol>
+        </div>
+    </div>
+    <div class="reasonForFamous">
+        <h1>Reason For Famous</h1>
+        <p>Naruto's dream of becoming Hokage never dies, but he also dreams of becoming someone strong enough to protect
+            everyone, and he fights for the safety of his loved ones above all else. His love for those around him and
+            willingness to risk his life for his friends proves he's a hero worthy of the Hokage's title.</p>
+    </div>
+
+    <div class="ourProduct">
+        <h1>Our Product</h1>
+        <div class="productCards">
+          
+            <div>
+                <img src="naruto_shippuden.jpg" alt="naruto_shippuden">
+                <h3>Naruto Shippuden</h3>
+            </div>
+            <div>
+                <img src="./naruto_2022.jpeg" alt="naruto_shippuden">
+                <h3>Naruto 2002</h3>
+            </div>
+            <div>
+                <img src="buroto_naruto_next.jpg" alt="Buroto">
+                <h3>Buroto Next Gen</h3>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

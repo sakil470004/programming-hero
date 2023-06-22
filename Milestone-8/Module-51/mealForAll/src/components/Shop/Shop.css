@@ -1,0 +1,13 @@
+.shop {
+    max-width: 1440px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}

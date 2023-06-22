@@ -1,0 +1,19 @@
+.selected-items {
+    position: fixed;
+    height: 15vh;
+    overflow-y: auto;
+    bottom: 0;
+}
+.selected-items .container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.selected-items .container span{
+    text-align: center;
+    background-color: rgb(58, 61, 101);
+    padding: 4px 8px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}

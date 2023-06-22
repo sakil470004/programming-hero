@@ -1,0 +1,34 @@
+nav.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav.header h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 160%;
+    color: #111111;
+}
+
+nav.header .nav-info {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.nav-info a{
+    color: #111111;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav-info a img{
+    border: 1px solid black;
+    background-color: rgba(128, 128, 128, 0.52);
+border-radius: 50%;
+}
+
+@media screen and (max-width:576px){
+   nav.header{
+    flex-direction: column;
+   } 
+}

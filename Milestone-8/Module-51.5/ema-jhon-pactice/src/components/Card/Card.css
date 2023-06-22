@@ -1,0 +1,34 @@
+.card {
+    border-radius: 8px;
+    border: 1px solid #95A0A7;
+    position: relative;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card .card-title {
+    font-style: bold;
+    margin: 6px 0px;
+    font-size: 20px;
+}
+
+.card .card-info p {
+    color: #2d373d;
+}
+
+.card .add-to-cart {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    background: #FFE0B3;
+    border: 1px solid #95A0A7;
+    font-size: 20px;
+    border-radius: 0px 0px 8px 8px;
+}

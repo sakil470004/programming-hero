@@ -1,0 +1,32 @@
+.order-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    gap: 20px;
+
+}
+
+.order-card .order-info img {
+    width: 91px;
+    height: 91px;
+}
+
+.order-card .order-info {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+}
+.order-card .order-info h3{
+    margin: 0px;
+}
+.order-card .order-info p{
+    margin: 10px 0px;
+}
+.text-gold {
+    color: #FF9900;
+}

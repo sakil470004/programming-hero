@@ -1,0 +1,12 @@
+.time-calculator {
+    font-weight: 700;
+    font-size: 24px;
+    color: #6047EC;
+    padding: 25px 10px;
+    text-align: center;
+    background-color:rgba(96, 71, 236, 0.1);
+    border-radius: 8px;
+    border: 1px solid #6047EC;
+    position: sticky;
+    top: 10px;
+}

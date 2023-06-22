@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Poppins&display=swap"
+        rel="stylesheet">
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- css -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="container mx-auto">
+    <header>
+        <nav class="bg-sky-100 rounded-lg flex flex-col md:flex-row gap-6 items-center justify-between px-8 py-4 my-8 ">
+            <h3>
+                <p class="text-5xl font-semibold mb-2">Interactive</p>
+                <span class="text-4xl text-gray-500 font-semibold">Geometry Genius</span>
+            </h3>
+            <a href="./index.html" class="text-xl bg-sky-500 text-white font-bold px-8 py-2 rounded-lg">Trigonometry</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="p-8 border rounded-xl mt-10">
+                <h1 class="text-4xl font-semibold">What is DOM and what is the purpose of DOM?</h1>
+                <p class="text-3xl mt-4">DOM is Document Object Model. In web, all HTML webpages are referred to as
+                    documents. The Document Object Model represents each of these web pages in a tree-like structure to
+                    make it easier to access and manage the elements.</p>
+
+                <p class="text-3xl mt-4">It represents the page so that programs can change the document structure,
+                    style, and content. The DOM represents the document as nodes and objects; that way, programming
+                    languages can interact with the page.</p>
+
+            </div>
+            <div class="p-8 border rounded-xl mt-10">
+                <h1 class="text-4xl font-semibold">How will you select HTML elements using DOM? Name the DOM methods?
+                </h1>
+                <div class="text-2xl mt-4">
+                    There are 5 way to select Dom
+                    <ul class="list-decimal px-6 md:px-20">
+                        <li class="mt-2 max-w-full ">getElementById()</li>
+                        <li class="mt-2 max-w-full ">getElementsByClassName()</li>
+                        <li class="mt-2 max-w-full ">getElementByTagName()</li>
+                        <li class="mt-2 max-w-full ">querySelector()</li>
+                        <li class="mt-2 max-w-full ">querySelectorAll()</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="p-8 border rounded-xl mt-10">
+                <h1 class="text-4xl font-semibold"> What is event bubble?</h1>
+                <p class="text-3xl mt-4">
+                    Event Bubbling happens when an element receives an event, and that event transmitted to its parent
+                    and ancestor elements in the DOM tree until it gets to the root element.
+                </p>
+
+            </div>
+            <div class="p-8 border rounded-xl mt-10">
+                <h1 class="text-4xl font-semibold"> What is a callback function and why will you use it?</h1>
+                <p class="text-3xl mt-4">
+                    In JS we can pass functions as parameters to other functions and call them inside the outer
+                    functions.It's called callback function.
+                </p>
+                <p class="text-3xl mt-4">
+                    JavaScript runs code sequentially in top-down order. However, there are some cases that code runs
+                    (or must run) after something else happens and also not sequentially. This is called asynchronous
+                    programming.Callbacks make sure that a function is not going to run before a task is completed but
+                    will run
+                    right after the task has completed. It helps us develop asynchronous JavaScript code and keeps us
+                    safe from problems and errors.
+                </p>
+
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

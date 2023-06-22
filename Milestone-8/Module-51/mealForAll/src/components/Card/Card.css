@@ -1,0 +1,31 @@
+.card{
+    border-radius: 8px;
+    border: 1px solid #95A0A7;
+    position: relative;
+}
+.card img {
+    border-radius: 8px;
+    width: calc(100% - 16px);
+    padding: 8px;
+}
+.card-info {
+    margin: 0px 4px;
+    padding: 8px;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.card .btn-show-more{
+    color: green;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    background: #FFE0B3;
+    border: 1px solid #95A0A7;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0px;
+}
+

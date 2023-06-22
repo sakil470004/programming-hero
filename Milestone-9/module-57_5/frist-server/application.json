@@ -1,0 +1,148 @@
+[
+    {
+        "name": "Data Analyst",
+        "availableJobNumber": 2,
+        "id": 1001,
+        "img": "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Z29vZ2xlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "jobLocation": "Chicago, IL",
+        "companyName": "GOOGLE LTD",
+        "salary": 75000,
+        "jobDescription": "We are seeking a data analyst to join our team and help us make data-driven decisions.",
+        "jobResponsibility": [
+            "Collect, clean, and analyze data from various sources.",
+            "Create reports and dashboards to help stakeholders understand the data.",
+            "Identify trends and patterns in the data to inform business decisions.",
+            "Collaborate with cross-functional teams to understand business needs and goals.",
+            "Provide insights and recommendations to improve business performance."
+        ],
+        "educationRequirement": "Bachelor's degree in Mathematics, Statistics, or related field.",
+        "jobExperience": 2,
+        "phone": "555-1001",
+        "email": "jobs@abcanalytics.com",
+        "jobType": [
+            "Full Time"
+        ]
+    },
+    {
+        "name": "Frontend Developer",
+        "availableJobNumber": 4,
+        "id": 1002,
+        "img": "https://images.unsplash.com/photo-1649734926695-1b1664e98842?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGFtYXpvbiUyMGxvZ298ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "jobLocation": "Seattle, WA",
+        "companyName": "AMAZON LTD",
+        "salary": 90000,
+        "jobDescription": "We are looking for a frontend developer to help us create responsive, user-friendly websites.",
+        "jobResponsibility": [
+            "Develop and maintain web applications using HTML, CSS, and JavaScript.",
+            "Collaborate with designers to implement website designs.",
+            "Optimize web pages for maximum speed and scalability.",
+            "Ensure cross-browser compatibility and accessibility.",
+            "Stay up-to-date with emerging frontend technologies and best practices."
+        ],
+        "educationRequirement": "Bachelor's degree in Computer Science or related field.",
+        "jobExperience": 3,
+        "phone": "555-1002",
+        "email": "jobs@xyzweb.com",
+        "jobType": [
+            "Remote",
+            "Full Time"
+        ]
+    },
+    {
+        "name": "DevOps Engineer",
+        "availableJobNumber": 1,
+        "id": 1003,
+        "img": "https://images.unsplash.com/photo-1540726811314-7648cc1b4426?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXBwbGUlMjBsb2dvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "jobLocation": "Austin, TX",
+        "companyName": "APPLE",
+        "salary": 110000,
+        "jobDescription": "We are seeking a DevOps engineer to help us build and maintain our cloud infrastructure.",
+        "jobResponsibility": [
+            "Deploy, configure, and maintain cloud infrastructure using tools like AWS, Azure, or Google Cloud.",
+            "Automate infrastructure deployment and management using tools like Terraform, Ansible, or Chef.",
+            "Monitor and troubleshoot system issues using tools like Nagios or Splunk.",
+            "Collaborate with software engineers to ensure smooth deployment and integration of applications.",
+            "Continuously improve system reliability, scalability, and security."
+        ],
+        "educationRequirement": "Bachelor's degree in Computer Science or related field.",
+        "jobExperience": 4,
+        "phone": "555-1003",
+        "email": "jobs@123tech.com",
+        "jobType": [
+            "Full Time"
+        ]
+    },
+    {
+        "name": "Machine Learning Engineer",
+        "availableJobNumber": 2,
+        "id": 1004,
+        "img": "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Z29vZ2xlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "jobLocation": "San Francisco, CA",
+        "companyName": "GOOGLE LTD",
+        "salary": 120000,
+        "jobDescription": "We are seeking a machine learning engineer to help us develop and deploy machine learning models.",
+        "jobResponsibility": [
+            "Design and implement machine learning models using tools like TensorFlow, PyTorch, or scikit-learn.",
+            "Collect and preprocess data for training and evaluation of machine learning models.",
+            "Deploy machine learning models to production environments using tools like Kubernetes or Docker.",
+            "Monitor and evaluate model performance and make improvements as needed.",
+            "Collaborate with cross-functional teams to identify and prioritize opportunities for machine learning applications."
+        ],
+        "educationRequirement": "Master's or Ph.D. degree in Computer Science, Statistics, or related field.",
+        "jobExperience": 5,
+        "phone": "555-1004",
+        "email": "jobs@456ai.com",
+        "jobType": [
+            "Remote",
+            "Full Time"
+        ]
+    },
+    {
+        "name": "Cybersecurity Analyst",
+        "availableJobNumber": 3,
+        "id": 1005,
+        "img": "https://images.unsplash.com/photo-1649734926695-1b1664e98842?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGFtYXpvbiUyMGxvZ298ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "jobLocation": "New York, NY",
+        "companyName": "AMAZON LTD",
+        "salary": 95000,
+        "jobDescription": "We are seeking a cybersecurity analyst to help us ensure the security and privacy of our systems and data.",
+        "jobResponsibility": [
+            "Monitor and analyze security events and logs to identify potential threats and vulnerabilities.",
+            "Implement and maintain security controls and policies to prevent unauthorized access and data breaches.",
+            "Conduct security assessments and audits to identify and mitigate risks.",
+            "Provide training and awareness programs to educate employees on cybersecurity best practices.",
+            "Stay up-to-date with emerging cybersecurity threats and best practices."
+        ],
+        "educationRequirement": "Bachelor's degree in Computer Science, Information Security, or related field.",
+        "jobExperience": 3,
+        "phone": "555-1005",
+        "email": "jobs@789security.com",
+        "jobType": [
+            "Full Time"
+        ]
+    },
+    {
+        "name": "Backend Developer",
+        "availableJobNumber": 2,
+        "id": 1006,
+        "img": "https://images.unsplash.com/photo-1540726811314-7648cc1b4426?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXBwbGUlMjBsb2dvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "jobLocation": "Los Angeles, CA",
+        "companyName": "APPLE",
+        "salary": 100000,
+        "jobDescription": "We are looking for a backend developer to help us build scalable, high-performance web applications.",
+        "jobResponsibility": [
+            "Design and develop RESTful APIs and backend services using languages like Python, Java, or Node.js.",
+            "Integrate with databases like MySQL, PostgreSQL, or MongoDB.",
+            "Ensure application scalability and performance by optimizing database queries and server response times.",
+            "Collaborate with frontend developers to ensure smooth integration with frontend applications.",
+            "Stay up-to-date with emerging backend technologies and best practices."
+        ],
+        "educationRequirement": "Bachelor's degree in Computer Science or related field.",
+        "jobExperience": 4,
+        "phone": "555-1006",
+        "email": "jobs@abcweb.com",
+        "jobType": [
+            "Remote"
+        ]
+    }
+]

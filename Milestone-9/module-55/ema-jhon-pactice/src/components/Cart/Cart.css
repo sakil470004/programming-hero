@@ -1,0 +1,42 @@
+.cart {
+    background-color: #FF99004D;
+    padding: 16px;
+    position: sticky;
+    top: 0;
+    height: 90vh;
+}
+
+.cart p {
+    font-size: 20px;
+}
+
+.cart .clear-cart {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    background: #ff3030;
+    border: none;
+    font-size: 20px;
+    border-radius: 8px;
+    color: white;
+    padding: 0.4rem 1rem;
+}
+
+.cart .review-order {
+    text-decoration: none;
+    margin: 20px auto;
+    width: 805;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    background: #ff9900;
+    border: none;
+    font-size: 20px;
+    border-radius: 8px;
+    color: white;
+    padding: 0.4rem 1rem;
+}

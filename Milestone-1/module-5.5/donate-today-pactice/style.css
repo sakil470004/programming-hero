@@ -1,0 +1,275 @@
+/* global css */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    background-color: #ff5959;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* banner */
+.header {
+    text-align: center;
+    color: white;
+    background-image: url(./images/donation13.jpg);
+    background-blend-mode: darken;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-tittle {
+    font-size: 52px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+.banner-description {
+    margin: 30px auto;
+    max-width: 600px;
+    font-size: 24px;
+}
+
+/* donate today */
+.donate-today {
+    max-width: 1140px;
+    margin: 120px auto;
+    text-align: center;
+    display: block;
+}
+
+.section-tittle {
+    font-size: 42px;
+}
+
+.section-description {
+    max-width: 600px;
+    font-size: 24px;
+    margin: 35px auto;
+    color: #757575;
+    ;
+
+}
+
+.today-card {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #757575;
+    font-weight: 700;
+}
+
+.today-card>span {
+    height: 150px;
+    width: 150px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+    border-radius: 10px;
+    border: 1px solid #fafafa;
+}
+
+.today-card .card-span2 {
+    background-color: #ffeeee;
+    border: 2px solid #ff5959;
+}
+
+.today-input {
+    width: 100%;
+    border: none;
+    outline: none;
+    margin: 35px auto;
+    padding: 24px 0px;
+    font-size: 24px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+/* our donate plan */
+.our-plan {
+    max-width: 1140px;
+    margin: 120px auto;
+
+}
+
+.our-plan>h1 {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    padding: 50px 20px;
+    background-color: #edf5f6;
+    border-radius: 10px;
+}
+
+.card:nth-child(2) {
+    background-color: #ffeeee;
+}
+
+.card:nth-child(3) {
+    background-color: #fff5d6;
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-tittle {
+    margin: 20px 0px;
+    font-size: 1.5rem;
+
+}
+
+.card p {
+    font-size: 20px;
+    color: #757575;
+}
+
+/* their lives */
+.their-lives {
+    max-width: 1140px;
+    margin: 120px auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.their-lives>div {
+    width: 50%;
+}
+
+.their-lives img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.their-lives h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.their-lives p {
+    font-size: 24px;
+    color: #757575;
+}
+
+.their-lives button {
+    margin: 20px 0px;
+}
+
+/* my update */
+.my-updates {
+    max-width: 1140px;
+    margin: 120px auto;
+}
+
+.my-updates>h1 {
+    text-align: center;
+}
+
+.input-holder {
+    background-color: #fff5d6;
+    padding: 80px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.input-holder input {
+    color: gray;
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 15px;
+}
+
+/* footer */
+.footer {
+    background-color: black;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.footer h1 {
+    font-size: 42px;
+    font-style: italic;
+    color: #ff5959;
+    font-weight: 900;
+}
+
+.footer p {
+    color: #FFFFFF;
+    font-size: 26px;
+}
+
+@media screen and (max-width:576px) {
+    .banner-description, .section-description {
+        padding: 10px;
+    }
+
+    .today-card, .card-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+        gap: 20px;
+    }
+
+    .today-input {
+        width: 90%;
+    }
+
+    .their-lives {
+        flex-direction: column-reverse;
+        margin: 120px auto;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .their-lives>div {
+        width: 90%;
+    }
+
+
+
+    .input-holder {
+
+        padding: 80px 10px;
+
+        flex-direction: column;
+
+        gap: 10px;
+    }
+
+    .input-holder input {
+        padding: 15px;
+    }
+}

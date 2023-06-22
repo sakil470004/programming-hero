@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taka ar taka</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <h1 class="text-7xl text-center mt-6">Let get some <span class="text-cyan-300">Money eee</span></h1>
+    <div class="container mx-auto p-10 bg-indigo-300 rounded-xl mt-10">
+        <div class="grid grid-cols-3 gap-6 text-white ">
+            <div class="bg-orange-400 rounded-xl p-10">
+                <h3 class="text-3xl mb-3">Deposit</h3>
+                <h2 class="text-5xl">$<span id="deposit-details">0</span></h2>
+            </div>
+
+            <div class="bg-blue-400 rounded-xl p-10">
+                <h3 class="text-3xl mb-3">Withdraw</h3>
+                <h2 class="text-5xl">$<span id="withdraw-details">0</span></h2>
+            </div>
+
+            <div class="bg-gray-600 rounded-xl p-10">
+                <h3 class="text-3xl mb-3">Balance</h3>
+                <h2 class="text-5xl">$<span id="balance-details">1240</span></h2>
+            </div>
+
+        </div>
+        <div class="grid grid-cols-2 mt-20 gap-6 ">
+            <div class="bg-indigo-500 rounded-xl p-10">
+                <h3 class="text-5xl mb-6 font-medium text-white">Please Deposit</h3>
+                <input class="block w-3/4 px-4 py-2 my-3 rounded-sm" type="number" name=""
+                    placeholder="Enter amount you want deposit" id="input-deposit">
+                <button id="btn-deposit"
+                    class="bg-green-900 text-white px-8 py-3 rounded-xl hover:bg-green-700">Deposit</button>
+            </div>
+            <div class="bg-indigo-500 rounded-xl p-10">
+                <h3 class="text-5xl mb-6 font-medium text-white">Withdraw</h3>
+                <input class="block w-3/4 px-4 py-2 my-3 rounded-sm" type="number" name=""
+                    placeholder="Enter amount you want withdraw" id="input-withdraw">
+                <button id="btn-withdraw"
+                    class="bg-green-900 text-white px-8 py-3 rounded-xl hover:bg-green-700">Withdraw</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./js/bank.js"></script>
+
+</html>

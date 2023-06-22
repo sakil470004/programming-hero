@@ -1,0 +1,245 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        penguin: '#FABE4C',
+                        penguinbg: '#FFFBF0',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <header class="bg-penguinbg pb-32">
+        <nav class="container mx-auto flex items-center justify-between py-6">
+            <div class=" font-semibold">
+                <img src="./images/logo.png" width="290" alt="">
+
+            </div>
+            <ul class="flex items-center gap-8 font-medium">
+                <li>Home</li>
+                <li>Product</li>
+                <li>About US</li>
+                <li>Contact US</li>
+            </ul>
+
+        </nav>
+        <!-- banner -->
+        <section class="container mx-auto grid grid-cols-1 md:grid-cols-2 justify-center items-center ">
+            <div class="">
+                <h1 class="text-7xl font-semibold leading-tight uppercase"><span class="text-penguin">Be the
+                        Penguins</span>
+                    <br> of Winter
+                </h1>
+                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nulla provident veritatis
+                    ipsum
+                    blanditiis! Veniam, placeat.</p>
+                <button
+                    class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] flex items-center gap-2 text-white py-4 px-8 rounded-lg mt-3"><img
+                        width="18" src="./icons/shopping-cart 1.png" alt=""> Buy Now</button>
+            </div>
+            <div class="md:flex-1">
+                <img class="max-w-full" src="./images/model.png" alt="">
+            </div>
+
+        </section>
+    </header>
+    <main class="container mx-auto">
+        <!-- W0Man Jacket -->
+        <section>
+            <h1 class="mt-12 mb-5 text-5xl font-medium uppercase">Woman Jacket</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-8">
+                <div class="shadow-2xl rounded-lg p-5">
+                    <div class="bg-slate-200 p-4 rounded-lg">
+                        <img class="max-w-full" src="./images/jacket-1.png" alt="">
+                    </div>
+                    <h2 class="text-2xl font-medium my-3">Yellow Coat Jacket</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, voluptates.</p>
+
+                    <div class="flex items-center justify-between mt-3">
+                        <h1 class="text-4xl font-semibold leading-tight uppercase text-penguin">
+                            $234
+                        </h1>
+                        <button
+                            class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] flex items-center gap-2 text-white py-4 px-8 rounded-lg mt-3"><img
+                                width="18" src="./icons/shopping-cart 1.png" alt=""> Buy Now</button>
+                    </div>
+                </div>
+                <div class="shadow-2xl rounded-lg p-5">
+                    <div class="bg-slate-200 p-4 rounded-lg">
+                        <img class="max-w-full" src="./images/jacket-2.png" alt="">
+                    </div>
+                    <h2 class="text-2xl font-medium my-3">Woman Jacket</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, voluptates.</p>
+
+                    <div class="flex items-center justify-between mt-3">
+                        <h1 class="text-4xl font-semibold leading-tight uppercase text-penguin">
+                            $284
+                        </h1>
+                        <button
+                            class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] flex items-center gap-2 text-white py-4 px-8 rounded-lg mt-3"><img
+                                width="18" src="./icons/shopping-cart 1.png" alt=""> Buy Now</button>
+                    </div>
+                </div>
+                <div class="shadow-2xl rounded-lg p-5">
+                    <div class="bg-slate-200 p-4 rounded-lg">
+                        <img class="max-w-full" src="./images/jacket-3.png" alt="">
+                    </div>
+                    <h2 class="text-2xl font-medium my-3">Red Diamond</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, voluptates.</p>
+
+                    <div class="flex items-center justify-between mt-3">
+                        <h1 class="text-4xl font-semibold leading-tight uppercase text-penguin">
+                            $324
+                        </h1>
+                        <button
+                            class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] flex items-center gap-2 text-white py-4 px-8 rounded-lg mt-3"><img
+                                width="18" src="./icons/shopping-cart 1.png" alt=""> Buy Now</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Man Jacket -->
+        <section>
+            <h1 class="mt-24 mb-5 text-5xl font-medium uppercase">Man Jacket</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-8">
+                <div class="shadow-2xl rounded-lg p-5">
+                    <div class="bg-slate-200 p-4 rounded-lg">
+                        <img class="max-w-full" src="./images/jacket-4.png" alt="">
+                    </div>
+                    <h2 class="text-2xl font-medium my-3">Yellow Coat Jacket</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, voluptates.</p>
+
+                    <div class="flex items-center justify-between mt-3">
+                        <h1 class="text-4xl font-semibold leading-tight uppercase text-penguin">
+                            $234
+                        </h1>
+                        <button
+                            class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] flex items-center gap-2 text-white py-4 px-8 rounded-lg mt-3"><img
+                                width="18" src="./icons/shopping-cart 1.png" alt=""> Buy Now</button>
+                    </div>
+                </div>
+                <div class="shadow-2xl rounded-lg p-5">
+                    <div class="bg-slate-200 p-4 rounded-lg">
+                        <img class="max-w-full" src="./images/jacket-5.png" alt="">
+                    </div>
+                    <h2 class="text-2xl font-medium my-3">Man Fashion</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, voluptates.</p>
+
+                    <div class="flex items-center justify-between mt-3">
+                        <h1 class="text-4xl font-semibold leading-tight uppercase text-penguin">
+                            $284
+                        </h1>
+                        <button
+                            class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] flex items-center gap-2 text-white py-4 px-8 rounded-lg mt-3"><img
+                                width="18" src="./icons/shopping-cart 1.png" alt=""> Buy Now</button>
+                    </div>
+                </div>
+                <div class="shadow-2xl rounded-lg p-5">
+                    <div class="bg-slate-200 p-4 rounded-lg">
+                        <img class="max-w-full" src="./images/jacket-6.png" alt="">
+                    </div>
+                    <h2 class="text-2xl font-medium my-3">Black Diamond</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, voluptates.</p>
+
+                    <div class="flex items-center justify-between mt-3">
+                        <h1 class="text-4xl font-semibold leading-tight uppercase text-penguin">
+                            $324
+                        </h1>
+                        <button
+                            class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] flex items-center gap-2 text-white py-4 px-8 rounded-lg mt-3"><img
+                                width="18" src="./icons/shopping-cart 1.png" alt=""> Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- our future -->
+        <section class="my-32 grid grid-cols-1 md:grid-cols-2 md:grid-rows-3 gap-x-20 gap-y-4 items-center">
+
+            <div class="md:order-1 py-5 px-7 flex gap-9 items-center shadow-lg rounded-lg">
+                <div>
+                    <img src="./icons/image 12.png" width="78" alt="">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-medium mb-4">Find the Perfect Fit</h3>
+                    <p>Everybody is different, which is why we
+                        offer styles for every body.</p>
+                </div>
+            </div>
+
+            <div class="order-first md:order-2 md:row-span-3 "><img class="max-w-full" src="./images/shopping.png"
+                    alt=""></div>
+
+            <div class="md:order-3 py-5 px-7 flex gap-9 items-center shadow-lg rounded-lg">
+                <div>
+                    <img src="./icons/image 13.png" width="78" alt="">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-medium mb-4">Make Bookmart on Web</h3>
+                    <p>Everybody is different, which is why we
+                        offer styles for every body.</p>
+                </div>
+            </div>
+            <div class="md:order-4 py-5 px-7 flex gap-9 items-center shadow-lg rounded-lg">
+                <div>
+                    <img src="./icons/image 14.png" width="78" alt="">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-medium mb-4">Contact Our Seller</h3>
+                    <p>Lorem is different, which is why we
+                        offer styles for every body.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="bg-black">
+        <div class="container mx-auto text-white p-8 grid grid-cols-1 lg:grid-cols-4 gap-5">
+            <ul>
+                <li>Home</li>
+                <li>Index</li>
+                <li>Website</li>
+                <li>Help Us</li>
+            </ul>
+            <ul>
+                <li>Home</li>
+                <li>Index</li>
+                <li>Website</li>
+                <li>Help Us</li>
+            </ul>
+            <ul>
+                <li>Home</li>
+                <li>Index</li>
+                <li>Website</li>
+                <li>Help Us</li>
+            </ul>
+            <ul>
+                <li>Home</li>
+                <li>Index</li>
+                <li>Website</li>
+                <li>Help Us</li>
+            </ul>
+    
+        </div>
+    </footer>
+</body>
+
+</html>

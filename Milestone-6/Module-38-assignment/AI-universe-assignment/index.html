@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind and flowbite css -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>AI Universe</title>
+    <style>
+        * {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="container mx-auto px-2">
+    <section class="text-center my-14">
+        <h1 class="text-5xl mb-8 text-center font-semibold">AI Universe Hub</h1>
+        <button id="btn-sort-date"
+            class="focus:outline-none text-white bg-red-500 font-semibold hover:bg-red-800 focus:ring-4 rounded-lg text-xl px-7 py-5 mr-2 mb-2">Sort
+            By Date</button>
+    </section>
+    <!-- cards -->
+    <section id="card-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-8">
+    </section>
+    <!-- progress bar -->
+    <section id="progress-bar" class=" flex justify-center items-center h-[70vh] hidden">
+        <progress class="progress w-56"></progress>
+    </section>
+    <section class="text-center">
+        <button id="btn-see-more" type="button"
+            class="focus:outline-none text-white bg-red-500 font-semibold hover:bg-red-800 focus:ring-4 rounded-lg text-xl px-7 py-5 mr-2 mb-8">See
+            More</button>
+    </section>
+
+
+    <!-- modal -->
+    <div>
+        <input type="checkbox" id="my-modal-3" class="modal-toggle" />
+        <div class="modal">
+            <div class="modal-box w-11/12 max-w-7xl relative">
+                <label for="my-modal-3" class="btn btn-sm btn-circle sticky left-[110%] -top-10">✕</label>
+                <div>
+                    <section id="progress-bar2" class=" flex justify-center items-center h-[50vh]">
+                        <progress class="progress w-56"></progress>
+                    </section>
+                    <div id="modal-box-details" class="p-3 lg:p-[126] ">
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- my js -->
+            <script src="./app.js"></script>
+
+</body>
+
+</html>

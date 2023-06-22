@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* global css */
+body {
+    font-family: 'Manrope', Helvetica, sans-serif;
+}
+
+.container-fit {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header-background {
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+}
+
+.button-style {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    padding: 14px 24px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.color-fav {
+    color: #9873FF;
+}
+
+.bg-fav {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+}
+
+@media only screen and (max-width: 576px) {
+    .button-style {
+       
+        border-radius: 4px;
+        padding: 6px 12px;
+    }
+
+}
