@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --color-first:#c09578 ;
+  --color-second: #c19578;
+  --color-third: #faf6f5;
+  --color-four: #FFEAD9;
+  }
+  /* text color */
+.text-mix{
+  color: var(--color-first);
+}
+
+.text-mix-2{
+  color: var(--color-second);
+}
+.text-mix-3{
+  color: var(--color-third);
+}
+.text-mix-4{
+  color: var(--color-four);
+}
+/* bg */
+.bg-mix{
+  background-color: var(--color-first);
+}
+
+.bg-mix-2{
+  background-color: var(--color-second);
+}
+.bg-mix-3{
+  background-color: var(--color-third);
+}
+.bg-mix-4{
+  background-color: var(--color-four);
+}

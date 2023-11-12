@@ -17,6 +17,7 @@ const Navbar = () => {
         logOut()
             .then()
     }
+    // this is toggle button custom made by sakil
     const darkButton = <label className='badge badge-error my-auto select-none flex justify-center items-center'>{dark ? <CiDark/> : <BsLightningCharge/>}
         <input type="checkbox" className="toggle toggle-error border-2 hidden" onChange={handleChange} defaultValue={dark} />
     </label>
